@@ -1,0 +1,118 @@
+.home {
+    display: flex;
+    gap: 70px;
+    max-width: 75vw;
+    padding-top: 70px;
+    margin: 0px auto;
+    justify-content: space-between;
+    padding-bottom: 90px;
+    flex-wrap: wrap;
+}
+.left-content{
+    text-align: left;
+}
+.left-content .role1 {
+    text-transform: uppercase;
+    color: var(--button-background-color);
+    font-weight: bold;
+    margin-top: 23px;
+    font-size: 20px;
+}
+.left-content .name1 {
+    margin-top: 20px;
+    font-size: 63px;
+    display: inline-block;
+}
+.left-content .name2 {
+    font-size: 63px;
+    margin-top: 10px;
+    letter-spacing: 7px;
+}
+.left-content .role2 {
+    display: inline-block;
+    font-size: 33px;
+    color: rgb(32, 32, 236);  
+    font-weight: bold;
+    margin-left: 23px;
+    border-radius: 33px;
+    background-color: #05174e;
+    padding: 5px 15px;
+    white-space: nowrap; 
+    overflow: hidden;
+}
+/* .typing-text{
+    animation: typing 2s steps(40, end) infinite;
+}
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 70%;
+    }
+} */
+
+.description {
+    margin-top: 23px;
+    max-width: 550px;
+}
+.buttons {
+    margin-top: 33px;
+}
+.btn-resume {
+    padding: 18px;
+    color: var(--primary-text-color);
+    background-color: var(--button-background-color);
+    border-radius: 7px;
+    font-size: 15px;
+    border: none;
+}
+.circle2 {
+    border: 2px solid var(--primary-text-color);
+    border-radius: 50%;
+    margin: 53px;
+}
+.circle1 {
+    border: 1px solid var(--primary-text-color);
+    border-radius: 50%;
+}
+.circle2 img {
+    width: 350px;
+    border-radius: 50%;
+} 
+.right-content{
+    position: relative;
+}
+.right-content .icons{
+    position: absolute;
+    height: 467px;
+    width: 463px;
+    top:0px;
+    left:0px;
+}
+.icons img{
+    width: 64px;
+    height: 64px;
+}
+.icons .react-icon {
+    position: absolute;
+    top: 56px;
+    left: 18px;
+}
+.icons .mongo-icon {
+    position: absolute;
+    top: 42px;
+    right: 12px;
+}
+.icons .nextjs-icon {
+    position: absolute;
+    bottom: 37px;
+    left: 37px;   
+}
+.icons .nodejs-icon {
+    position: absolute;
+    bottom: 42px;
+    right: 32px;   
+}
+
+
