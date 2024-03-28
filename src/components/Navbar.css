@@ -18,14 +18,18 @@ nav{
     display: flex;
     gap: 34px;
 }
-
 .nav-right ul li {
     font-size: 20px;
     list-style: none;
 
 }
-
 .nav-right ul li a {
     text-decoration: none;
     color: var(--primary-text-color);
+}
+.nav-right ul li:first-child a {
+    color: #C2410C; 
+}
+.nav-right ul li a:hover{
+    color:#737477;
 }

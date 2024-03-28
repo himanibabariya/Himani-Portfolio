@@ -7,10 +7,10 @@
 * {
     /* --primary-background-color: #05174e; */
     --primary-background-color:#04113A;
-    --secondarybackground--color: #10375F;
+    --secondary-background--color: #10375F;
     --primary-text-color: #ffffff;
     --secondary-text-color: #e5e7eb;
-    --button-background-color: rgba(194,65,12);
+    --button-background-color: #C2410C;
 }
 
 body {

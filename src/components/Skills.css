@@ -1,0 +1,86 @@
+.skills {
+    margin: 20px;
+    /* border: 2px solid red; */
+}
+
+.skills h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.headline {
+    text-align: center;
+    color: var(--secondary-text-color);
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(177, 178, 179);
+}
+
+.skill-container {
+    /* border: 2px solid yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+
+}
+
+.skill-container .boxes {
+    border: 2px solid purple;
+
+}
+
+.skill-container .boxes {
+    width: 100%;
+    max-width: 500px;
+    /* height:50px; */
+    /* background: rgb(23, 23, 33); */
+    background-color: #03123A;
+    border: 0.1px solid rgb(133, 76, 230);
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+    border-radius: 16px;
+    padding: 18px 36px;
+}
+
+.boxes h2 {
+
+    text-align: center;
+    /* color: var(--secondary-text-color); */
+    color: rgb(177, 178, 179);
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    color: rgb(177, 178, 179);
+}
+
+.box6 {
+    row-gap: 10px;
+}
+
+.box {
+    border: 1px solid rgb(177, 178, 179);
+    ;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 0px 10px;
+}
+
+.box img {
+    height: 25px;
+    width: 25px;
+}
