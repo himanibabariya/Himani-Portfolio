@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Skills.css"
+import { Link } from 'react-router-dom';
 import htmlIcon from '../assets/skills/html.svg';
 import cssIcon from '../assets/skills/css.svg';
 import tailwindIcon from '../assets/skills/tailwind.svg';
@@ -99,10 +100,13 @@ const Skills = () => {
               <div className="box">Data structure & Algorithm</div>
               <div className="box">Data base management system</div>
               <div className="box">Software Engineering</div>
-              {/* <!-- <div class="box1-skills">Object Oriented Programming</div> --> */}
             </div>
-          </div>
+          </div>       
         </div>
+        <button className='btn-skills'>
+            <Link to="/projects"> Previous works </Link>
+            <img src="" alt="" />
+          </button>
       </section>
 
     </div>
