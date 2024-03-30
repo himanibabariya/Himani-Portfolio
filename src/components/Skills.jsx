@@ -26,8 +26,6 @@ import postmanIcon from '../assets/skills/postman.svg';
 import maIcon from '../assets/skills/html.svg';
 import figmaIcon from '../assets/skills/html.svg';
 
-
-
 const Skills = () => {
   return (
     <div>

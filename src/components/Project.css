@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: space-between;
     max-width: 80vw;
-    margin: 30px auto;
+    margin: 80px auto;
     gap: 30px;
     background-color: #03123A;
     padding: 30px 36px;
@@ -91,4 +91,25 @@
 .project-container .btn-blue {
     background-color: #0e2363;
     margin-left: 15px;
+}
+
+/* Project 2 */
+
+.project-container .left .phone {
+    position: relative;
+}
+
+.project-container .left .phone .phoneImg {
+    position: relative;
+    z-index: 10;
+    width: 488px;
+    height: 504px;
+}
+
+.project-container .left .phone .phoneVideo {
+    position: absolute;
+    right: 69px;
+    top: 23px;
+    width: 350px;
+    height: 459px;
 }

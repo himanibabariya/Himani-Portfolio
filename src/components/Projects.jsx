@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import "./Project.css"
 import Laptop from "../assets/images/laptop.png";
 import Project1 from "../assets/videos/project1.mp4";
+import Phone from "../assets/images/phone.webp";
+import Project2 from "../assets/videos/project2.mp4";
 
 
 const Projects = () => {
@@ -18,7 +20,6 @@ const Projects = () => {
               <img src={Laptop} alt="" className='img1' />
               <video controls className='video' muted autoPlay loop>
                 <source src={Project1} type="video/mp4" />
-                Your browser does not support the video tag.
               </video>
             </div>
 
@@ -36,6 +37,39 @@ const Projects = () => {
             <a href="#"><button className="btn-blue">View Code</button></a>
           </div>
         </div>
+
+        <hr />
+
+        <div className="project-container">
+          <div className="left">
+            <p className='title'>Project Name:</p>
+            <p className='project-name'>The KW Region Bank</p>
+
+            <div className="phone">
+              <img src={Phone} alt="" className='phoneImg' />
+              <video controls className='phoneVideo' muted autoPlay loop>
+                <source src={Project2} type="video/mp4" />
+              </video>
+            </div>
+
+          </div>
+          <div className="right">
+            <p className='des'>Description:</p>
+            <p className='description'>Project "KW Bank Mobile Application" revolutionizes the banking experience with a meticulously crafted UI/UX design. Through the creation of rapid UX and UI prototypes, I've shaped every aspect of this app's user interaction, ensuring seamless navigation and intuitive functionality. By bringing wireframes and design documents to life, I've developed comprehensive user journeys, wireframes, prototypes, and interactive mockups, all aimed at communicating design concepts and validating user interactions.</p>
+
+            <p className='technologies'>Tool Used:</p>
+            <div className="list-languages">
+              <div className="language">Adobe Xd</div>
+            </div>
+
+            <a href="#"><button className="btn-orange">View Website</button></a>
+            <a href="#"><button className="btn-blue">View Code</button></a>
+          </div>
+        </div>
+        <button className='btn-skills'>
+          <Link to="/education">My Education </Link>
+          <img src="" alt="" />
+        </button>
       </section>
     </div>
   )
