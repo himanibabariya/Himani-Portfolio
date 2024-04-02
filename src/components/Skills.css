@@ -1,6 +1,5 @@
 .skills {
     margin: 20px;
-    /* border: 2px solid red; */
 }
 
 .skills h1 {
@@ -8,47 +7,26 @@
     font-size: 40px;
 }
 
-.headline {
-    text-align: center;
-    color: var(--secondary-text-color);
-    font-size: 20px;
-    margin-top: 20px;
-    color: rgb(177, 178, 179);
-}
 
 .skill-container {
-    /* border: 2px solid yellow; */
     display: flex;
-    align-items: center;
     justify-content: center;
-    width: 100%;
     flex-wrap: wrap;
-    gap: 30px;
-    margin-top: 30px;
-
-}
-
-.skill-container .boxes {
-    border: 2px solid purple;
-
+    gap: 20px 50px;
+    margin-top: 70px;
 }
 
 .skill-container .boxes {
     width: 100%;
-    max-width: 500px;
-    /* height:50px; */
-    /* background: rgb(23, 23, 33); */
-    background-color: #03123A;
-    border: 0.1px solid rgb(133, 76, 230);
-    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+    max-width: 550px;
+    background: #05164C;
     border-radius: 16px;
     padding: 18px 36px;
+    margin: 3px 0px;
 }
 
 .boxes h2 {
-
     text-align: center;
-    /* color: var(--secondary-text-color); */
     color: rgb(177, 178, 179);
 }
 
@@ -68,15 +46,16 @@
 
 .box6 {
     row-gap: 10px;
+    padding: 0px 30px;
 }
 
 .box {
     border: 1px solid rgb(177, 178, 179);
-    ;
     border-radius: 10px;
-    padding: 10px;
+    padding: 5px 10px;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 0px 10px;
 }
 

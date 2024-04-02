@@ -13,7 +13,9 @@ const Navbar = () => {
         <div>
             <nav>
                 <div className="logo">
-                    <img src={Logo} alt="" />
+                    <Link to="/">
+                        <img src={Logo} alt="" />
+                    </Link>
                     {/* <img className='logo2' src={Logo1} alt="" /> */}
                 </div>
 
@@ -28,7 +30,7 @@ const Navbar = () => {
                 </div>
 
                 <div className="sunIcon">
-                <img src={SunIcon} alt="Sun Icon" />
+                    <img src={SunIcon} alt="Sun Icon" />
                 </div>
 
             </nav>

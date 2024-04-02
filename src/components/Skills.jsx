@@ -31,9 +31,6 @@ const Skills = () => {
     <div>
       <section id="skills" className="skills">
         <h1>Skills</h1>
-        <div className="headline">
-          <div>Here are some of my skills that I have acquired and successfully applied in various projects.</div>
-        </div>
 
         <div className="skill-container">
           <div className="boxes ">
@@ -41,7 +38,6 @@ const Skills = () => {
             <div className="box1">
               <div className="box"><img src={htmlIcon} alt="" /> HTML</div>
               <div className="box"><img src={cssIcon} alt="" /> CSS</div>
-              {/* <!-- <div class="box1-skills"><img src="icons/boostrap-skills.svg" alt=""/> Bootstrap</div> --> */}
               <div className="box"><img src={tailwindIcon} alt="" /> Tailwind</div>
               <div className="box"><img src={javascriptIcon} alt="" /> JavaScript</div>
               <div className="box"><img src={reactIcon} alt="" /> React Js</div>
@@ -82,12 +78,13 @@ const Skills = () => {
           <div className=" boxes">
             <h2>Tools</h2>
             <div className="box5">
-              <div className="box"><img src={vsIcon} alt="" />VS Code</div>
-              <div className="box"><img src={inIcon} alt="" />IntelliJ IDEA</div>
-              <div className="box"><img src={vs2Icon} alt="" />Microsoft Visual Studio </div>
-              <div className="box"><img src={postmanIcon} alt="" />Postman</div>
-              <div className="box"><img src={maIcon} alt="" />Microsoft Azure</div>
-              <div className="box"><img src={figmaIcon} alt="" />Figma</div>
+              <div className="box">VS Code</div>
+              <div className="box">IntelliJ IDEA</div>
+              <div className="box">Microsoft Visual Studio </div>
+              <div className="box">Postman</div>
+              <div className="box">Microsoft Azure</div>
+              <div className="box">Figma</div>
+              <div className="box">Adobe XD</div>
             </div>
           </div>
 

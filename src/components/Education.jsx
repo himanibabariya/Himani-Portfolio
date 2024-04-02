@@ -44,7 +44,6 @@ const Education = () => {
                 <img src={Certificate} alt="" />
                 <div className="description">
                   <div className="title">Data Structures & Algorithms</div>
-                  <button className="credential">View</button>
                 </div>
               </div>
 
@@ -52,15 +51,6 @@ const Education = () => {
                 <img src={Certificate} alt="" />
                 <div className="description">
                   <div className="title">Android Application Development</div>
-                  <button className="credential">View</button>
-                </div>
-              </div>
-
-              <div className="certification-box">
-                <img src={Certificate} alt="" />
-                <div className="description">
-                  <div className="title">Introduction to programming using Java</div>
-                  <button className="credential">View</button>
                 </div>
               </div>
             </div>

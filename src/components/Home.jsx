@@ -11,6 +11,8 @@ import instaSocial from '../assets/social/instagram.svg';
 import linkedinSocial from '../assets/social/linkedin.svg';
 
 const Home = () => {
+
+    
     return (
         <div>
             <section id="home" className="home">

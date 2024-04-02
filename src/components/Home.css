@@ -36,7 +36,7 @@
     margin-left: 23px;
     border-radius: 15px;
     background-color: #05174e;
-    padding: 5px 15px;
+    padding: 2px 15px;
     white-space: nowrap; 
     overflow: hidden;
 }
@@ -49,17 +49,8 @@
     margin-top: 33px;
     display: flex;
     justify-content: space-between;
-    /* max-width: 400px; */
     align-items: center;
 }
-/* .btn-resume {
-    padding: 18px;
-    color: var(--primary-text-color);
-    background-color: var(--button-background-color);
-    border-radius: 7px;
-    font-size: 15px;
-    border: none;
-} */
 .btn-skills{
     background: transparent;
     border: none;
@@ -105,27 +96,86 @@
 .icons img{
     width: 64px;
     height: 64px;
+    position: absolute;
 }
 .icons .react-icon {
     position: absolute;
-    top: 56px;
-    left: 18px;
+    top: 47px;
+    left: 31px;
 }
 .icons .mongo-icon {
     position: absolute;
-    top: 42px;
-    right: 12px;
+    top: 36px;
+    right: 8px;
 }
 .icons .nextjs-icon {
     position: absolute;
-    bottom: 37px;
-    left: 37px;   
+    bottom: 28px;
+    left: 42px;  
 }
 .icons .nodejs-icon {
     position: absolute;
-    bottom: 42px;
-    right: 32px;   
+    bottom: 43px;
+    right: 14px;   
 }
 
+
+/* Animations right  */
+
+/* @keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.icons {
+    position: absolute;
+    height: 467px;
+    width: 463px;
+    top: 0;
+    left: 0;
+    animation: rotate 20s linear infinite; 
+}
+
+.icons img {
+    width: 64px;
+    height: 64px;
+   
+}
+
+.icons .react-icon {
+    animation: reactRotate 20s linear infinite;
+}
+
+.icons .mongo-icon {
+    animation: mongoRotate 20s linear infinite;
+}
+
+.icons .nextjs-icon {
+    animation: nextjsRotate 20s linear infinite;
+}
+
+.icons .nodejs-icon {
+    animation: nodejsRotate 20s linear infinite;
+}
+
+@keyframes reactRotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+@keyframes mongoRotate {
+    from { transform: rotate(90deg); }
+    to { transform: rotate(450deg); }
+}
+
+@keyframes nextjsRotate {
+    from { transform: rotate(180deg); }
+    to { transform: rotate(540deg); }
+}
+
+@keyframes nodejsRotate {
+    from { transform: rotate(270deg); }
+    to { transform: rotate(630deg); }
+} */
 
 
