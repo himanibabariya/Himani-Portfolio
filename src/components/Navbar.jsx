@@ -2,9 +2,9 @@
 
 import React from 'react'
 import { Link } from 'react-router-dom';
-import SunIcon from '../assets/skills/sun.svg';
 import Logo from '../assets/images/logo.svg';
 import Logo1 from '../assets/images/logo-new.svg';
+import Contact from '../Pages/Contact'
 
 import "../Style/Navbar.css"
 
@@ -29,11 +29,15 @@ const Navbar = () => {
                     </ul>
                 </div>
 
-                <div className="sunIcon">
-                    <img src={SunIcon} alt="Sun Icon" />
+                <div className="contact">
+                    <Link to="/Contact">
+                        <button>Contact Me!</button>
+                    </Link>
                 </div>
 
             </nav>
+
+
         </div>
     )
 }

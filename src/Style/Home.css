@@ -1,7 +1,6 @@
 
 
 
-
 .home {
     display: flex;
     gap: 70px;
@@ -98,6 +97,25 @@
     width: 30px;
 }
 
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px); 
+    }
+}
+
+.right-content {
+    position: relative;
+    animation: bounce 1s ease infinite alternate; 
+}
+.circle1 {
+    border: 1px solid var(--primary-text-color);
+    border-radius: 50%;
+    /* box-shadow: rgba(23, 92, 230, 1.15) 0px 4px 70px; */
+    box-shadow: rgb(66 100 169) 0px 4px 70px;
+}
 .circle2 {
     border: 10px solid var(--primary-text-color);
     border-radius: 50%;
@@ -105,11 +123,7 @@
     animation: HomeLeft 0.9s ease-in-out forwards;
 }
 
-.circle1 {
-    border: 1px solid var(--primary-text-color);
-    border-radius: 50%;
 
-}
 
 .circle2 img {
     width: 350px;
@@ -117,9 +131,7 @@
 
 }
 
-.right-content {
-    position: relative;
-}
+
 
 .right-content .icons {
     position: absolute;

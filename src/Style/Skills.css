@@ -82,10 +82,9 @@
 }
 
 .boxes:hover {
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
     background-color: transparent;
     border: 1px solid white;
-    box-shadow: purple;
 }
 
 
