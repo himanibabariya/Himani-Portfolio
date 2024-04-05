@@ -1,3 +1,7 @@
+
+
+
+
 .home {
     display: flex;
     gap: 70px;
@@ -8,9 +12,24 @@
     padding-bottom: 90px;
     flex-wrap: wrap;
 }
-.left-content{
+
+.left-content {
     text-align: left;
+    transform: translateY(-50px);
+    animation: HomeLeft 0.9s ease-in-out forwards;
 }
+@keyframes HomeLeft {
+    0% {
+        opacity: 0;
+        transform: translateY(-80px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
 .left-content .role1 {
     text-transform: uppercase;
     color: var(--button-background-color);
@@ -18,164 +37,139 @@
     margin-top: 23px;
     font-size: 20px;
 }
+
 .left-content .name1 {
     margin-top: 20px;
     font-size: 63px;
     display: inline-block;
 }
+
 .left-content .name2 {
     font-size: 63px;
     margin-top: 10px;
     letter-spacing: 7px;
 }
+
 .left-content .role2 {
     display: inline-block;
     font-size: 33px;
-    color: rgb(32, 32, 236);  
+    color: rgb(32, 32, 236);
     font-weight: bold;
     margin-left: 23px;
     border-radius: 15px;
     background-color: #05174e;
     padding: 2px 15px;
-    white-space: nowrap; 
+    white-space: nowrap;
     overflow: hidden;
 }
 
 .description {
     margin-top: 23px;
     max-width: 550px;
+    line-height: 1.5;
 }
+
 .buttons {
     margin-top: 33px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.btn-skills{
+
+.btn-skills {
     background: transparent;
     border: none;
 }
-.btn-skills a{
+
+.btn-skills a {
     text-decoration: none;
     font-size: 20px;
-    color:var(--button-background-color);
+    color: var(--button-background-color);
 }
-.social-icons{
+
+.social-icons {
     display: flex;
     justify-content: space-between;
-    gap:10px;
-    
+    gap: 10px;
 }
-.social-icons img{
+
+.social-icons img {
     height: 30px;
     width: 30px;
 }
+
 .circle2 {
     border: 10px solid var(--primary-text-color);
     border-radius: 50%;
     margin: 53px;
+    animation: HomeLeft 0.9s ease-in-out forwards;
 }
+
 .circle1 {
     border: 1px solid var(--primary-text-color);
     border-radius: 50%;
+
 }
+
 .circle2 img {
     width: 350px;
     border-radius: 50%;
-} 
-.right-content{
+
+}
+
+.right-content {
     position: relative;
 }
-.right-content .icons{
+
+.right-content .icons {
     position: absolute;
     height: 467px;
     width: 463px;
-    top:0px;
-    left:0px;
-}
-.icons img{
-    width: 64px;
-    height: 64px;
-    position: absolute;
-}
-.icons .react-icon {
-    position: absolute;
-    top: 47px;
-    left: 31px;
-}
-.icons .mongo-icon {
-    position: absolute;
-    top: 36px;
-    right: 8px;
-}
-.icons .nextjs-icon {
-    position: absolute;
-    bottom: 28px;
-    left: 42px;  
-}
-.icons .nodejs-icon {
-    position: absolute;
-    bottom: 43px;
-    right: 14px;   
-}
-
-
-/* Animations right  */
-
-/* @keyframes rotate {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
+    top: 0px;
+    left: 0px;
 }
 
 .icons {
-    position: absolute;
-    height: 467px;
-    width: 463px;
-    top: 0;
-    left: 0;
-    animation: rotate 20s linear infinite; 
+    transform: translateY(50%);
+    transition: transform 0.9s ease-in-out;
+    animation: HomeIcons 0.9s ease-in-out forwards;
+}
+
+@keyframes HomeIcons {
+    0% {
+        transform: translateY(10%);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
 .icons img {
     width: 64px;
     height: 64px;
-   
+    position: absolute;
 }
 
 .icons .react-icon {
-    animation: reactRotate 20s linear infinite;
+    position: absolute;
+    top: 47px;
+    left: 31px;
 }
 
 .icons .mongo-icon {
-    animation: mongoRotate 20s linear infinite;
+    position: absolute;
+    top: 36px;
+    right: 8px;
 }
 
 .icons .nextjs-icon {
-    animation: nextjsRotate 20s linear infinite;
+    position: absolute;
+    bottom: 28px;
+    left: 42px;
 }
 
 .icons .nodejs-icon {
-    animation: nodejsRotate 20s linear infinite;
+    position: absolute;
+    bottom: 43px;
+    right: 14px;
 }
-
-@keyframes reactRotate {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
-}
-
-@keyframes mongoRotate {
-    from { transform: rotate(90deg); }
-    to { transform: rotate(450deg); }
-}
-
-@keyframes nextjsRotate {
-    from { transform: rotate(180deg); }
-    to { transform: rotate(540deg); }
-}
-
-@keyframes nodejsRotate {
-    from { transform: rotate(270deg); }
-    to { transform: rotate(630deg); }
-} */
-
-

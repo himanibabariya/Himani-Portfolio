@@ -1,10 +1,22 @@
 .projects {
-    margin-top: 60px;
+    margin-top: 20px;
 }
 
 .projects h1 {
     text-align: center;
     font-size: 40px;
+    animation: ProjectText 0.9s ease-in-out forwards;
+}
+
+@keyframes ProjectText {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .project-container {
@@ -14,7 +26,6 @@
     max-width: 80vw;
     margin: 80px auto;
     gap: 30px;
-    background-color: #03123A;
     padding: 30px 36px;
     flex-wrap: wrap;
 }

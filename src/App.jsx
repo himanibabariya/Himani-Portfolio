@@ -1,10 +1,10 @@
 import './App.css'
 import Navbar from './components/Navbar'
-import Home from './components/Home'
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-import Education from "./components/Education";
-import Contact from "./components/Contact";
+import Home from './Pages/Home'
+import Skills from './Pages/Skills';
+import Projects from './Pages/Projects';
+import Education from "./Pages/Education";
+import Contact from "./Pages/Contact";
 
 // import Laptop from "../assets/images/laptop.png";
 import Laptop from "./assets/images/laptop.png";

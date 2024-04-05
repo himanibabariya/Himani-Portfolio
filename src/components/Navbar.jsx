@@ -6,7 +6,7 @@ import SunIcon from '../assets/skills/sun.svg';
 import Logo from '../assets/images/logo.svg';
 import Logo1 from '../assets/images/logo-new.svg';
 
-import "./Navbar.css"
+import "../Style/Navbar.css"
 
 const Navbar = () => {
     return (

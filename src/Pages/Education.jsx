@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Education.css"
+import "../Style/Education.css"
 import Education1 from "../assets/images/conestoga.png";
 import Education2 from "../assets/images/kadi.png";
 import Certificate from "../assets/images/certificate.svg";

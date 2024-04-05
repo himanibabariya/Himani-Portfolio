@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Skills.css"
+import "../Style/Skills.css"
 import { Link } from 'react-router-dom';
 import htmlIcon from '../assets/skills/html.svg';
 import cssIcon from '../assets/skills/css.svg';
@@ -33,7 +33,7 @@ const Skills = () => {
         <h1>Skills</h1>
 
         <div className="skill-container">
-          <div className="boxes ">
+          <div className="boxes box-group-left">
             <h2>Frontend Development</h2>
             <div className="box1">
               <div className="box"><img src={htmlIcon} alt="" /> HTML</div>
@@ -45,7 +45,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="boxes">
+          <div className="boxes box-group-right">
             <h2>Backend Development</h2>
             <div className="box2">
               <div className="box"><img src={nodeIcon} alt="" /> Node Js</div>
@@ -57,7 +57,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className=" boxes">
+          <div className=" boxes box-group-left">
             <h2>Programming Language</h2>
             <div className="box3">
               <div className="box"><img src={cIcon} alt="" />C</div>
@@ -67,7 +67,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className=" boxes">
+          <div className=" boxes box-group-right">
             <h2>Version Control & Development</h2>
             <div className="box4">
               <div className="box"><img src={gitIcon} alt="" />Git</div>
@@ -75,7 +75,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className=" boxes">
+          <div className=" boxes box-group-left">
             <h2>Tools</h2>
             <div className="box5">
               <div className="box">VS Code</div>
@@ -88,7 +88,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className=" boxes">
+          <div className=" boxes box-group-right">
             <h2>Concepts</h2>
             <div className="box6">
               <div className="box">Object Oriented Programming</div>

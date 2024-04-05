@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import "./Project.css"
+import "../Style/Project.css"
 import Laptop from "../assets/images/laptop.png";
 import Project1 from "../assets/videos/project1.mp4";
 import Phone from "../assets/images/phone.webp";
@@ -11,6 +11,7 @@ const Projects = () => {
   return (
     <div>
       <section id="projects" className="projects">
+      <h1>Projects</h1>
         <div className="project-container">
           <div className="left">
             <p className='title'>Project Name:</p>
@@ -33,8 +34,8 @@ const Projects = () => {
               <div className="language">Adobe Xd</div>
             </div>
 
-            <a href="#"><button className="btn-orange">View Website</button></a>
-            <a href="#"><button className="btn-blue">View Code</button></a>
+            <a href="#"><button className="btn-orange">Github</button></a>
+            <a href="#"><button className="btn-blue">Live Demo</button></a>
           </div>
         </div>
 
@@ -62,8 +63,8 @@ const Projects = () => {
               <div className="language">Adobe Xd</div>
             </div>
 
-            <a href="#"><button className="btn-orange">View Website</button></a>
-            <a href="#"><button className="btn-blue">View Code</button></a>
+            <a href="#"><button className="btn-orange">Github</button></a>
+            <a href="#"><button className="btn-blue">Live Demo</button></a>
           </div>
         </div>
         <button className='btn-skills'>
