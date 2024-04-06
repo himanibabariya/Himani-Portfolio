@@ -124,3 +124,9 @@
     width: 350px;
     height: 459px;
 }
+
+@media screen and (max-width: 1450px){
+    .project-container{
+        justify-content: center;
+    }
+}

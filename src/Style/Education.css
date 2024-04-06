@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 100%;
     margin: 40px auto;
     gap: 98px;
     flex-wrap: wrap;
@@ -105,4 +106,16 @@
 .sepration {
     margin: 50px auto;
 
+}
+
+@media screen and (max-width: 780px){
+    .education{
+        justify-content: center;
+    }
+    .right .education-container{
+        justify-content: center;
+    }
+    .certification .certification-container{
+        justify-content: center;
+    }
 }
