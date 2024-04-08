@@ -23,9 +23,9 @@ nav{
     text-decoration: none;
     color: var(--primary-text-color);
 }
-.nav-right ul li:first-child a {
+/* .nav-right ul li:first-child a {
     color: #C2410C; 
-}
+} */
 .nav-right ul li a:hover{
     color:#737477;
 }
@@ -39,6 +39,6 @@ nav{
     background-color: var(--button-background-color);
     
 }
-.contact button:hover{
+/* .contact button:hover{
     background-image: linear-gradient(to right, #FF5733, #FF8A70);
-}
+} */

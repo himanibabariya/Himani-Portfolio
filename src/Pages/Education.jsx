@@ -10,11 +10,11 @@ const Education = () => {
     <div>
       <section id="education" className="education">
 
-        <div className="left">
+        <div className="education-left">
           <img src={Graduation} alt="" />
         </div>
 
-        <div className="right">
+        <div className="education-right">
           <h1>Education</h1>
           <div class="education-container">
             <div className="education-box">
