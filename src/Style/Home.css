@@ -87,6 +87,15 @@
     justify-content: space-between;
     align-items: center;
 }
+.btn-resume{
+    padding: 12px;
+    color: var(--primary-text-color);
+    border-radius: 7px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--button-background-color);
+}
 
 .btn-skills {
     background: transparent;
@@ -126,7 +135,6 @@
 .circle1 {
     border: 1px solid var(--primary-text-color);
     border-radius: 50%;
-    /* box-shadow: rgba(23, 92, 230, 1.15) 0px 4px 70px; */
     box-shadow: rgb(66 100 169) 0px 4px 70px;
 }
 .circle2 {
@@ -200,14 +208,16 @@
 }
 
 
-@media screen and (max-width: 1465px){
+@media screen and (max-width: 1462px){
     .home{
         justify-content: center;
+    }
+    .left-content {
+        order: 1;
+        
     }
     .right-content{
         order: -1;
     }
-    .left-content {
-        order: 1;
-    }
+    
 }

@@ -8,6 +8,8 @@
     animation: ProjectText 0.9s ease-in-out forwards;
 }
 
+
+
 @keyframes ProjectText {
     0% {
         opacity: 0;

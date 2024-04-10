@@ -7,6 +7,9 @@ nav{
     width: 75vw;
     margin: auto;
 }
+nav .check-btn{
+    font-size: 30px;
+}
 .logo{
     /* filter: drop-shadow(2px 2px 3px #b3b3b3); */
 }
@@ -28,8 +31,12 @@ nav{
 } */
 .nav-right ul li a:hover{
     color:#737477;
+    transition: .5s;
 }
-.contact button{
+.nav-right ul li a.active{
+    color: aqua;
+}
+.contact .nav-btn{
     padding: 12px;
     color: var(--primary-text-color);
     border-radius: 7px;
@@ -42,3 +49,4 @@ nav{
 /* .contact button:hover{
     background-image: linear-gradient(to right, #FF5733, #FF8A70);
 } */
+

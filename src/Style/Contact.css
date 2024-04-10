@@ -11,6 +11,7 @@
     max-width: 60vw;
     margin: 0px auto;
     margin-top: 60px;
+    flex-wrap: wrap;
 }
 .contact-option img{
     height: 40px;
@@ -54,4 +55,18 @@
     width:500px;
     margin-bottom:15px ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact-right button{
+    padding: 12px;
+    color: var(--primary-text-color);
+    border-radius: 7px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--button-background-color);
+}
+@media screen and (max-width: 1280){
+    .contact-container{
+        justify-content: center;
+    }
 }

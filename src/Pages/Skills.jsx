@@ -19,12 +19,7 @@ import csharpIcon from '../assets/skills/csharp.svg';
 import javaIcon from '../assets/skills/java.svg';
 import gitIcon from '../assets/skills/git.svg';
 import githubIcon from '../assets/skills/github.svg';
-import vsIcon from '../assets/skills/vscode.svg';
-import inIcon from '../assets/skills/html.svg';
-import vs2Icon from '../assets/skills/html.svg';
-import postmanIcon from '../assets/skills/postman.svg';
-import maIcon from '../assets/skills/html.svg';
-import figmaIcon from '../assets/skills/html.svg';
+
 
 const Skills = () => {
   return (

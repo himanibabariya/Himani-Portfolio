@@ -12,6 +12,15 @@ const Projects = () => {
     <div>
       <section id="projects" className="projects">
       <h1>Projects</h1>
+      {/* <div className="project-nav">
+        <ul>
+          <li>All</li>
+          <li>UI/UX</li>
+          <li>Crypto</li>
+          <li>Branding</li>
+        </ul>
+      </div> */}
+
         <div className="project-container">
           <div className="left">
             <p className='title'>Project Name:</p>
