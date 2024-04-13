@@ -45,7 +45,7 @@
     display: flex;
     flex-direction: column;
 }
-.contact-right form input[type="text"], textarea{
+.contact-right form input[type="text"], input[type="email"], textarea{
     background-color: transparent;
     border: 1px solid rgb(177, 178, 179);
     outline: none;
@@ -57,7 +57,7 @@
     margin-bottom:15px ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.contact-right button{
+.contact-right form input[type="submit"]{
     padding: 12px;
     color: var(--primary-text-color);
     border-radius: 7px;

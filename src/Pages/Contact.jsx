@@ -1,9 +1,29 @@
-import React from 'react'
+import React, { useRef } from 'react';
 import "../Style/Contact.css";
 import Email from "../assets/social/email.svg";
 import Linkedin from "../assets/social/linkedin-1.svg";
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_ft9g7lt', 'template_r25htcz', form.current, {
+        publicKey: 'Rrt7Qvwbl8XfCIhZG',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+          
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
+
   return (
     <div>
       <section id="contact" className="contact">
@@ -26,12 +46,14 @@ const Contact = () => {
             </div>
           </div>
           <div className="contact-right">
-            {/* <h2>Email Me 🚀</h2> */}
-            <form action="">
-              <input type="text" placeholder="Your Name" />
-              <input type="text" placeholder="Your Email" />
-              <textarea name="" id="" cols="30" rows="4" placeholder="Message"></textarea>
-              <button type='submit'>Send</button>
+            <form ref={form} onSubmit={sendEmail}>
+              <label>Name</label>
+              <input type="text" name="user_name" />
+              <label>Email</label>
+              <input type="email" name="user_email" />
+              <label>Message</label>
+              <textarea name="message" />
+              <input type="submit" value="Send" />
             </form>
           </div>
         </div>
