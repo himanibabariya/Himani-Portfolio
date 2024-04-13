@@ -35,27 +35,27 @@ const About = () => {
       <section className="about" id="about">
         <div className="about-left">
 
-            <img className='aboutImg' src={himaniAbout} alt="" />
-            <div className="about-icons">
-              <div className="square1"></div>
-              <div className="square2"></div>
-              <div className="square3"></div>
-              <div className="downloadBG-wrapper">
-                <img src={downloadBG} alt="" className='downloadBG' />
-                <a href="">
-                  <img src={downloadCV} alt="" className='downloadCV' />
-                </a>
-              </div>
-
+          <img className='aboutImg' src={himaniAbout} alt="" />
+          <div className="about-icons">
+            <div className="square1"></div>
+            <div className="square2"></div>
+            <div className="square3"></div>
+            <div className="downloadBG-wrapper">
+              <img src={downloadBG} alt="" className='downloadBG' />
+              <a href="">
+                <img src={downloadCV} alt="" className='downloadCV' />
+              </a>
             </div>
-          
+
+          </div>
+
 
         </div>
 
         <div className="about-right">
           <p className='title'>About Me</p>
           <h1>I Develop System that Works</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, veniam vitae, qui magnam, recusandae corrupti nesciunt officia tempora dolorum consequuntur nulla voluptatum facilis repellat minus modi deserunt blanditiis fuga cumque?</p>
+          <p>Welcome to my software engineering journey, where creativity meets technical mastery and innovation knows no bounds. I stand at the intersection of innovation and technical prowess. I excel in UI/UX design, web development, and the intricate workings of data structures and algorithms. With an unwavering commitment to perfection, I craft digital experiences that transcend functionality, ensuring every aspect captivates and engages users</p>
 
         </div>
       </section>
@@ -63,9 +63,67 @@ const About = () => {
 
 
 
-      {/* <section id="education" className="education">
+      <section id="container" className="education-container">
+        <div className="education">
+          <h1>Education</h1>
+          <div className="content">
+            <div className="education-left">
+              <span className='dot'></span>
+              <span className='line'></span>
+            </div>
+            <div className="education-right">
+              <h1>Mobile Solutions Development</h1>
+              <p>Conestoga College</p>
+              <p>May 2023 - Sep 2024</p>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, repellendus!</p>
+            </div>
+          </div>
+          <div className="content">
+            <div className="education-left">
+              <span className='dot'></span>
+              <span className='line'></span>
+            </div>
+            <div className="education-right">
+              <h1>Mobile Solutions Development</h1>
+              <p>Conestoga College</p>
+              <p>May 2023 - Sep 2024</p>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, repellendus!</p>
+            </div>
+          </div>
+        </div>
 
-        <div className="education-left">
+        <div className="experience">
+          <h1>Experience</h1>
+          <div className="content">
+            <div className="education-left">
+              <span className='dot'></span>
+              <span className='line'></span>
+            </div>
+            <div className="education-right">
+              <h1>Software Engineer</h1>
+              <p>SCC Infotech LLP</p>
+              <p>July 2022 -  Dec 2023</p>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, repellendus!</p>
+            </div>
+            </div>
+            <div className="content">
+            <div className="education-left">
+              <span className='dot'></span>
+              <span className='line'></span>
+            </div>
+            <div className="education-right">
+              <h1>Software Engineer (Intern)</h1>
+              <p>SCC Infotech LLP</p>
+              <p>Jan 2022 - june 2023</p>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, repellendus!</p>
+            </div>
+            </div>
+        </div>
+
+
+
+
+        {/* <div className="education-left">
           <img src={Graduation} alt="" />
         </div>
 
@@ -109,9 +167,9 @@ const About = () => {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </section> */}
+          </div> */}
+        {/* </div> */}
+      </section>
 
     </div>
   )

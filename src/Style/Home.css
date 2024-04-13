@@ -14,6 +14,7 @@
     transform: translateY(-50px);
     animation: HomeLeft 0.9s ease-in-out forwards;
 }
+
 @keyframes HomeLeft {
     0% {
         opacity: 0;

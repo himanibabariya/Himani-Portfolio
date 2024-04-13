@@ -8,7 +8,7 @@ import Graduation from "../assets/images/graduation1.png";
 const Education = () => {
   return (
     <div>
-      <section id="education" className="education">
+      {/* <section id="education" className="education">
 
         <div className="education-left">
           <img src={Graduation} alt="" />
@@ -56,7 +56,7 @@ const Education = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   )
 }

@@ -26,7 +26,7 @@ const Home = () => {
                             <button className="btn-resume">Resume</button>
                         </a> */}
                         <button className='btn-skills'>
-                            <Link to="/skills"> Know me more </Link>
+                            <Link to="/about"> Know me more </Link>
                             <img src="" alt="" />
                         </button>
 

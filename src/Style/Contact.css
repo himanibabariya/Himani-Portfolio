@@ -7,11 +7,12 @@
 }
 .contact-container{
     display: flex;
-    justify-content: space-between;
-    max-width: 60vw;
+    justify-content: center;
+    max-width: 75vw;
     margin: 0px auto;
     margin-top: 60px;
     flex-wrap: wrap;
+    gap:50px;
 }
 .contact-option img{
     height: 40px;
@@ -65,8 +66,12 @@
     cursor: pointer;
     background-color: var(--button-background-color);
 }
-@media screen and (max-width: 1280){
+@media screen and (max-width: 600px){
     .contact-container{
         justify-content: center;
+        margin: 0px auto;
+    }
+    .contact-right form input[type="text"], textarea, .contact-right button{
+        max-width: 250px;
     }
 }
