@@ -60,9 +60,6 @@ const About = () => {
         </div>
       </section>
 
-
-
-
       <section id="container" className="education-container">
         <div className="education">
           <h1>Education</h1>
@@ -72,10 +69,10 @@ const About = () => {
               <span className='line'></span>
             </div>
             <div className="education-right">
-              <h1>Mobile Solutions Development</h1>
+              <h1>Mobile Solutions Development - 3.8 GPA</h1>
               <p>Conestoga College</p>
               <p>May 2023 - Sep 2024</p>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, repellendus!</p>
+              <p>This program equipped me with advanced skills in Android and iOS application development, along with a solid foundation in software engineering principles like data structures, algorithms, object-oriented programming, and database management systems.</p>
             </div>
           </div>
           <div className="content">
@@ -84,10 +81,10 @@ const About = () => {
               <span className='line'></span>
             </div>
             <div className="education-right">
-              <h1>Mobile Solutions Development</h1>
+              <h1>Bachelor of Computer Application - 9.8 CGPA</h1>
               <p>Conestoga College</p>
               <p>May 2023 - Sep 2024</p>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, repellendus!</p>
+              <p>During my academic journey, I delved into various facets of computer science, with a particular focus on web development. Exploring the intricacies of coding, design, and functionality, I gained a comprehensive understanding of creating dynamic and user-friendly websites.</p>
             </div>
           </div>
         </div>

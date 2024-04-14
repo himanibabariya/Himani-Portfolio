@@ -155,7 +155,7 @@
 }
 .education-left .line{
     border: 1.5px solid gray;
-    height:150px;
+    height:190px;
     width: 1px;
     margin-left: 6px;
     /* margin-top: 4px; */
@@ -164,15 +164,20 @@
     font-size: 1rem;
     color: var(--button-background-color);
 }
+.education-right p:nth-child(2){
+    margin-top: 1px;
+}
 .education-right p:nth-child(3){
     font-size: 0.8rem;
     color: gray;
+    margin-top: 5px;
 }
 .education-right p:nth-child(4){
-    margin-top: 10px;
+    margin-top: 15px;
     text-align: justify;
     max-width: 450px;
 }
+
 
 @media screen and (max-width: 1300px){
     .about{
