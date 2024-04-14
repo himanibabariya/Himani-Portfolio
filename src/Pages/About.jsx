@@ -4,30 +4,6 @@ import downloadCV from "../assets/other/download.svg";
 import downloadBG from "../assets/images/download-cv.png";
 import { Link } from 'react-router-dom';
 import himaniAbout from "../assets/images/himani-about.jpeg";
-import htmlIcon from '../assets/skills/html.svg';
-import cssIcon from '../assets/skills/css.svg';
-import tailwindIcon from '../assets/skills/tailwind.svg';
-import javascriptIcon from '../assets/skills/javascript.svg';
-import reactIcon from '../assets/skills/react.svg';
-import reduxIcon from '../assets/skills/redux.svg';
-import nodeIcon from '../assets/skills/node.svg';
-import nextIcon from '../assets/skills/nextjs.svg';
-import expressIcon from '../assets/skills/express.svg';
-import phpIcon from '../assets/skills/php.svg';
-import mongoIcon from '../assets/skills/mongo.svg';
-import sqlIcon from '../assets/skills/mysql.svg';
-import cIcon from '../assets/skills/c.svg';
-import cplusIcon from '../assets/skills/cplus.svg';
-import csharpIcon from '../assets/skills/csharp.svg';
-import javaIcon from '../assets/skills/java.svg';
-import gitIcon from '../assets/skills/git.svg';
-import githubIcon from '../assets/skills/github.svg';
-
-
-import Education1 from "../assets/images/conestoga.png";
-import Education2 from "../assets/images/kadi.png";
-import Certificate from "../assets/images/certificate.svg";
-import Graduation from "../assets/images/graduation1.png";
 
 const About = () => {
   return (
@@ -62,7 +38,7 @@ const About = () => {
 
       <section id="container" className="education-container">
         <div className="education">
-          <h1>Education</h1>
+          <h1><i className="fa-solid fa-graduation-cap"></i>Education</h1>
           <div className="content">
             <div className="education-left">
               <span className='dot'></span>
@@ -82,15 +58,15 @@ const About = () => {
             </div>
             <div className="education-right">
               <h1>Bachelor of Computer Application - 9.8 CGPA</h1>
-              <p>Conestoga College</p>
-              <p>May 2023 - Sep 2024</p>
+              <p>Kadi Serva Vishwavidyalaya</p>
+              <p>2018 - 2021</p>
               <p>During my academic journey, I delved into various facets of computer science, with a particular focus on web development. Exploring the intricacies of coding, design, and functionality, I gained a comprehensive understanding of creating dynamic and user-friendly websites.</p>
             </div>
           </div>
         </div>
 
         <div className="experience">
-          <h1>Experience</h1>
+          <h1><i className="fa-solid fa-pencil"></i>Experience</h1>
           <div className="content">
             <div className="education-left">
               <span className='dot'></span>
@@ -99,11 +75,11 @@ const About = () => {
             <div className="education-right">
               <h1>Software Engineer</h1>
               <p>SCC Infotech LLP</p>
-              <p>July 2022 -  Dec 2023</p>
+              <p>July 2023 -  Dec 2023</p>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, repellendus!</p>
             </div>
-            </div>
-            <div className="content">
+          </div>
+          <div className="content">
             <div className="education-left">
               <span className='dot'></span>
               <span className='line'></span>
@@ -114,60 +90,13 @@ const About = () => {
               <p>Jan 2022 - june 2023</p>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, repellendus!</p>
             </div>
-            </div>
-        </div>
-
-
-
-
-        {/* <div className="education-left">
-          <img src={Graduation} alt="" />
-        </div>
-
-        <div className="education-right">
-          <h1>Education</h1>
-          <div className="education-container">
-            <div className="education-box">
-              <img src={Education1} alt="" />
-              <div className="description">
-                <div className="title">Conestoga College (2024)</div>
-                <div className="course">Mobile Solutions Development</div>
-                <div className="grades">3.8 GPA</div>
-              </div>
-            </div>
-            <div className="education-box">
-              <img src={Education2} alt="" />
-              <div className="description">
-                <div className="title">Kadi Serva Vishwavidyalaya (2021)</div>
-                <div className="course">Bachelor of Computer Application</div>
-                <div className="grades">9.8 CGPA</div>
-              </div>
-            </div>
           </div>
-
-          <hr className="sepration" />
-
-          <div className="certification">
-            <h1>Certifications</h1>
-            <div className="certification-container">
-              <div className="certification-box">
-                <img src={Certificate} alt="" />
-                <div className="description">
-                  <div className="title">Data Structures & Algorithms</div>
-                </div>
-              </div>
-
-              <div className="certification-box">
-                <img src={Certificate} alt="" />
-                <div className="description">
-                  <div className="title">Android Application Development</div>
-                </div>
-              </div>
-            </div>
-          </div> */}
-        {/* </div> */}
+        </div>
+        <button className='btn-navigation btn-skiils-navigation' >
+        <Link to="/skills"> Skiils <i className="fa-solid fa-angles-right"></i></Link>
+      </button>
       </section>
-
+      
     </div>
   )
 }

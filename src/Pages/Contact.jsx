@@ -1,7 +1,5 @@
 import React, { useRef, useState } from 'react';
 import "../Style/Contact.css";
-import Email from "../assets/social/email.svg";
-import Linkedin from "../assets/social/linkedin-1.svg";
 import emailjs from '@emailjs/browser';
 import Footer from '../components/Footer';
 
@@ -12,8 +10,10 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_ft9g7lt', 'template_r25htcz', form.current, {
-      publicKey: 'Rrt7Qvwbl8XfCIhZG',
+    emailjs.sendForm(
+      import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, form.current, 
+      {
+      publicKey: import.meta.env.VITE_USER_ID,
     })
       .then(
         () => {
@@ -36,16 +36,14 @@ const Contact = () => {
           <div className="contact-left">
             <div className="contact-option">
               <a href="mailto:himanibabariya@gmail.com" target='_blank'>
-                {/* <img src={Email} alt="" /> */}
-                <i class="fa-solid fa-envelope"></i>
+                <i className="fa-solid fa-envelope"></i>
                 <p>Email me</p>
                 <p>himanibabariya@gmail.com</p>
               </a>
             </div>
             <div className="contact-option">
               <a href="https://www.linkedin.com/in/himanibabariya/" target='_blank'>
-                {/* <img src={Linkedin} alt="" /> */}
-                <i class="fa-brands fa-linkedin"></i>
+                <i className="fa-brands fa-linkedin"></i>
                 <p>Message me</p>
                 <p>linkedin.com/himanibabariya</p>
               </a>

@@ -24,25 +24,6 @@
     transform: scale(1.03);
 
 }
-.about-left .about-icons{
-    /* position: static; */
-    /* height: 386px;
-    width: 302px; */
-    /* top:0;
-    left: 0; */
-    /* animation: aboutIcons 1s ease-in-out forwards; */
-}
-/* @keyframes aboutIcons {
-    0% {
-        transform: translateY(-90%);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(-100%);
-        opacity: 1;
-    }
-} */
-
 .about-left .about-icons .square1{
     height: 50px;
     width:50px;
@@ -97,10 +78,6 @@
     left:-14px;   
 }
 
-.about .about-right{
-    /* padding: 30px; */
-    /* max-width: 700px; */
-}
 .about .about-right .title{
     color: var(--button-background-color);
     font-size: 1.3rem;
@@ -125,7 +102,7 @@
     /* align-items: center; */
     justify-content: center;
     max-width: 80%;
-    margin: 200px auto;
+    margin: 200px auto 50px auto;
     gap: 98px;
     flex-wrap: wrap;
 }
@@ -135,6 +112,14 @@
 .experience > h1{
     margin-bottom: 20px;
 } 
+.education i{
+    color: var(--button-background-color);
+    padding-right: 10px;
+}
+.experience i{
+    color: var(--button-background-color);
+    padding-right: 10px;
+}
 .content{
     display: flex;
     gap:15px;
@@ -203,32 +188,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Education */
  .container {
     display: flex;
@@ -239,19 +198,4 @@
     /* gap: 98px; */
     flex-wrap: wrap;
 } 
-/*
-.education-left{
-    display: flex;
-    flex-direction: column;
-}
-.education-left .dot{
-    display: flex;
-    border: 2px solid white;
-    border-radius: 50%;
-    height: 2px;
-    width: 2px;
-    background-color: transparent;
-    align-items: baseline;
-    padding: 4px;
-    margin: 11px 0px;
-} */
+

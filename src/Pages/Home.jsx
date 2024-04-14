@@ -22,12 +22,8 @@ const Home = () => {
                     <p className="description">Adaptable Software Developer Thriving in Dynamic Environments, Embracing Change and Collaboration</p>
 
                     <div className="buttons">
-                        {/* <a href="#">
-                            <button className="btn-resume">Resume</button>
-                        </a> */}
-                        <button className='btn-skills'>
-                            <Link to="/about"> Know me more </Link>
-                            <img src="" alt="" />
+                        <button className='btn-navigation'>
+                            <Link to="/about"> Know me more <i class="fa-solid fa-angles-right"></i></Link>
                         </button>
 
                         <div className="social-icons">

@@ -91,12 +91,11 @@ const Skills = () => {
               <div className="box">Data base management system</div>
               <div className="box">Software Engineering</div>
             </div>
-          </div>       
+          </div>
         </div>
-        <button className='btn-skills'>
-            <Link to="/projects"> Previous works </Link>
-            <img src="" alt="" />
-          </button>
+        <button className='btn-navigation btn-navigation-projects'>
+          <Link to="/projects"> Previous work <i className="fa-solid fa-angles-right"></i></Link>
+        </button>
       </section>
 
     </div>

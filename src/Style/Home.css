@@ -98,16 +98,20 @@
     background-color: var(--button-background-color);
 }
 
-.btn-skills {
+.btn-navigation {
     background: transparent;
     border: none;
 }
 
-.btn-skills a {
+.btn-navigation a {
     text-decoration: none;
     font-size: 20px;
     color: var(--button-background-color);
 }
+.btn-navigation i{
+    font-size: 12px;
+}
+
 
 .social-icons {
     display: flex;

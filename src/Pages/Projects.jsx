@@ -11,8 +11,8 @@ const Projects = () => {
   return (
     <div>
       <section id="projects" className="projects">
-      <h1>Projects</h1>
-      {/* <div className="project-nav">
+        <h1>Projects</h1>
+        {/* <div className="project-nav">
         <ul>
           <li>All</li>
           <li>UI/UX</li>
@@ -76,9 +76,8 @@ const Projects = () => {
             <a href="#"><button className="btn-blue">Live Demo</button></a>
           </div>
         </div>
-        <button className='btn-skills'>
-          <Link to="/education">My Education </Link>
-          <img src="" alt="" />
+        <button className='btn-navigation btn-navigation-contact'>
+          <Link to="/contact"> Contact me<i className="fa-solid fa-angles-right"></i></Link>
         </button>
       </section>
     </div>

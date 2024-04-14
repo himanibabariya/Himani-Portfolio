@@ -5,7 +5,7 @@
 
 .skills h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     animation: SkillsText 0.9s ease-in-out forwards;
 }
 @keyframes SkillsText {
@@ -118,4 +118,10 @@
         transform: translateX(0);
         opacity: 1;
     }
+}
+
+.btn-navigation-projects{
+    margin: 50px auto;
+    text-align: center;
+    display: flex;
 }
