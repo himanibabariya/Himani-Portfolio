@@ -48,7 +48,7 @@
     align-items: center;
     justify-content: space-between;
     max-width: 80vw;
-    margin: 30px auto;
+    margin: 50px auto;
     gap: 30px;
     padding: 30px 36px;
     flex-wrap: wrap;
@@ -121,14 +121,24 @@
 
 .project-container .btn-orange {
     background-color: var(--button-background-color);
+    transition: background-color .5s ease-in-out;
 }
 
 .project-container .btn-blue {
     background-color: #0e2363;
     margin-left: 15px;
+    transition: background-color .5s ease-in-out;
 }
 
-
+.project-container  button:hover{
+    background-color: white;
+    color: var(--primary-background-color);
+    
+}
+.project-container button:hover{
+    background-color: white;
+    color: var(--primary-background-color);
+}
 
 
 .left {
@@ -187,10 +197,43 @@
     display: flex;
     margin: 50px auto;
     text-align: center;
+    /* color: white; */
 }
 
+.moreProjects{
+    display: flex;
+    flex-direction: column;
+    max-width: 75vw;
+    margin: 100px auto 60px auto;
+    justify-content: center;
+    align-items: center;
+}
+.moreProjects p{
+    margin-bottom: 40px;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
 @media screen and (max-width: 1450px){
     .project-container{
         justify-content: center;
     }
+}
+@media screen and (max-width: 525px){
+    .project-container .left .title {
+       margin-left: 70px;
+    }
+    
+    .project-container .left .project-name {
+        margin-left: 70px;
+    }
+    .project-container .left .laptop .img1 {
+        width: 400px;
+    }
+    
+    .project-container .left .laptop .video {
+        right: 43px;
+        width: 308px;
+    }
+    
 }

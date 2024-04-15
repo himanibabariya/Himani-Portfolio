@@ -43,11 +43,14 @@ nav .check-btn{
     border: none;
     cursor: pointer;
     background-color: var(--button-background-color);
+    transition: background-color .5s ease-in-out;
     
 }
-/* .contact button:hover{
-    background-image: linear-gradient(to right, #FF5733, #FF8A70);
-} */
+.nav-right button:hover{
+    background-color: white;
+    color: var(--primary-background-color);
+    
+}
 #toggler, nav label{
     display: none;
 }

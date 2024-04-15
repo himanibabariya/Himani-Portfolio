@@ -22,7 +22,7 @@ const Home = () => {
                     <p className="description">Adaptable Software Developer Thriving in Dynamic Environments, Embracing Change and Collaboration</p>
 
                     <div className="buttons">
-                        <button className='btn-navigation'>
+                        <button className='btn-home-navigation'>
                             <Link to="/about"> Know me more <i class="fa-solid fa-angles-right"></i></Link>
                         </button>
 

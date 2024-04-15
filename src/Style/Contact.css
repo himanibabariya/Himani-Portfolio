@@ -23,7 +23,7 @@
     max-width: 75vw;
     margin: 60px auto;
     flex-wrap: wrap;
-    gap:100px;
+    gap:40px 100px;
 }
 
 .contact-option{
@@ -77,6 +77,14 @@
     border: none;
     cursor: pointer;
     background-color: var(--button-background-color);
+    transition: background-color .5s ease-in-out;
+}
+
+
+.contact-right form input[type="submit"]:hover{
+    background-color: white;
+    color: var(--primary-background-color);
+    
 }
  .message-sent{
     color:green;

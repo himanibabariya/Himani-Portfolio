@@ -5,6 +5,7 @@ import Laptop from "../assets/images/laptop.png";
 import Project1 from "../assets/videos/project1.mp4";
 import Phone from "../assets/images/phone.webp";
 import Project2 from "../assets/videos/project2.mp4";
+import GitHub from "../assets/social/github1.svg";
 
 
 const Projects = () => {
@@ -12,7 +13,7 @@ const Projects = () => {
     <div>
       <section id="projects" className="projects">
         <h1>Projects</h1>
-        <div className="project-nav">
+        {/* <div className="project-nav">
           <div className="item">All</div>
           <div className="sepration"></div>
           <div className="item">UI/UX</div>
@@ -20,7 +21,7 @@ const Projects = () => {
           <div className="item">Web Application</div>
           <div className="sepration"></div>
           <div className="item">AI</div>
-        </div>
+        </div> */}
 
         <div className="project-container">
           <div className="left">
@@ -76,6 +77,14 @@ const Projects = () => {
             <a href="#"><button className="btn-orange">Github</button></a>
             <a href="#"><button className="btn-blue">Live Demo</button></a>
           </div>
+        </div>
+        <hr />
+
+        <div className="moreProjects">
+          <p>That is not all. Please checkout my git hub profile for more repositories.</p>
+          <a href="https://github.com/himanibabariya" target='_blank'>
+            <img src={GitHub} alt="" />
+          </a>
         </div>
         <button className='btn-navigation btn-navigation-contact'>
           <Link to="/contact"> Contact me<i className="fa-solid fa-angles-right"></i></Link>
