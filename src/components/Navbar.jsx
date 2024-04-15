@@ -1,11 +1,13 @@
 // rafce 
 
 import React from 'react'
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import Logo from '../assets/images/logo.svg';
 import "../Style/Navbar.css"
 
 const Navbar = () => {
+    const location = useLocation();
+
     return (
         <div>
             <nav>
@@ -21,11 +23,11 @@ const Navbar = () => {
                 {/* Navbar Center  */}
                 <div className="nav-center">
                     <ul>
-                        <li><Link to="/" className='active'> Home </Link></li>
-                        <li><Link to="/about">About me</Link></li>
-                        <li><Link to="/skills">Skills </Link></li>
-                        <li><Link to="/projects"> Projects </Link></li>
-                        <li><Link to="/contact"> Contact </Link></li>
+                        <li><Link to="/" className={location.pathname === '/' ? 'active' : ''}> Home </Link></li>
+                        <li><Link to="/about" className={location.pathname === '/about' ? 'active' : ''}>About me</Link></li>
+                        <li><Link to="/skills" className={location.pathname === '/skills' ? 'active' : ''}>Skills </Link></li>
+                        <li><Link to="/projects" className={location.pathname === '/projects' ? 'active' : ''}> Projects </Link></li>
+                        <li><Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''}> Contact </Link></li>
                     </ul>
                 </div>
 
