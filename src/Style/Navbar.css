@@ -33,7 +33,7 @@ nav .check-btn{
     transition: .5s;
 }
 .nav-center ul li a.active{
-    color: var(--button-background-color);
+    color: rgb(32, 32, 236);
 }
 .nav-right .nav-btn{
     padding: 12px;

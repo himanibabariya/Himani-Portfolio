@@ -53,11 +53,11 @@ const Contact = () => {
 
             <form ref={form} onSubmit={sendEmail}>
               <label>Name</label>
-              <input type="text" name="user_name" placeholder='Name' />
+              <input type="text" name="user_name" placeholder='Name' required/>
               <label>Email</label>
-              <input type="email" name="user_email" placeholder='Email' />
+              <input type="email" name="user_email" placeholder='Email' required/>
               <label>Message</label>
-              <textarea name="message" placeholder='Message' />
+              <textarea name="message" placeholder='Message' required/>
               <input type="submit" value="Send" />
             
               {messageSent && <p className='message-sent'> Message Sent!</p>}
