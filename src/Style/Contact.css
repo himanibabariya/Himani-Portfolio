@@ -4,6 +4,18 @@
 .contact h1{
     text-align: center;
     font-size: 30px;
+    animation: ContactText 0.9s ease-in-out forwards;
+}
+
+@keyframes ContactText {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 .contact-container{
     display: flex;
@@ -74,6 +86,38 @@
     color:var(--button-background-color);
     font-size: 40px;
 }
+.contact-left {
+    animation: ContactLeft 0.9s ease-in-out forwards;
+}
+
+.contact-right {
+    animation: ContactRight 0.9s ease-in-out forwards;
+}
+
+@keyframes ContactLeft {
+    from {
+        transform: translateX(-20%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes ContactRight {
+    from {
+        transform: translateX(20%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 @media screen and (max-width: 600px){
     .contact h1{
         margin-bottom: 20px;

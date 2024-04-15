@@ -12,14 +12,15 @@ const Projects = () => {
     <div>
       <section id="projects" className="projects">
         <h1>Projects</h1>
-        {/* <div className="project-nav">
-        <ul>
-          <li>All</li>
-          <li>UI/UX</li>
-          <li>Crypto</li>
-          <li>Branding</li>
-        </ul>
-      </div> */}
+        <div className="project-nav">
+          <div className="item">All</div>
+          <div className="sepration"></div>
+          <div className="item">UI/UX</div>
+          <div className="sepration"></div>
+          <div className="item">Web Application</div>
+          <div className="sepration"></div>
+          <div className="item">AI</div>
+        </div>
 
         <div className="project-container">
           <div className="left">

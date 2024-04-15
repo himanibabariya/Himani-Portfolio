@@ -17,8 +17,20 @@
     transition: transform 0.3s ease;
    position: relative ;
    box-shadow: rgb(223 121 33) 0px 1px 30px;
-   
+   animation: AboutImg 0.9s ease-in-out forwards;
 }
+@keyframes AboutImg {
+    0% {
+        opacity: 0;
+        transform: translateY(-60px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
 .aboutImg:hover{
     filter: grayscale(0%);
     transform: scale(1.03);
@@ -31,9 +43,18 @@
     background-color:var(--button-background-color);
     top:36px;
     left:-36px;
-    
+    animation: moveSquare1 1s ease-in-out forwards;
 }
-
+@keyframes moveSquare1 {
+    from {
+        left: -60px; 
+        opacity: 0;
+    }
+    to {
+        left: -36px; 
+        opacity: 1;
+    }
+}
 .about-left .about-icons .square2{
     height: 80px;
     width:80px;
@@ -42,9 +63,18 @@
     top:-18px;
     right:-14px;
     z-index: -1;
-    
+    animation: moveSquare2 1s ease-in-out forwards;
 }
-
+@keyframes moveSquare2 {
+    from {
+        transform: translate(-100%, 100%);
+        opacity: 0;
+    }
+    to {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
 .about-left .about-icons .square3{
     height: 40px;
     width:30px;
@@ -52,8 +82,19 @@
     background-color: var(--button-background-color);
     top:366px;
     right:29px;
-    
+    animation: moveSquare3 1s ease-in-out forwards;
 }
+@keyframes moveSquare3 {
+    from {
+        top: 102%; 
+        opacity: 0;
+    }
+    to {
+        top: 366px; 
+        opacity: 1;
+    }
+}
+
 
 .about-left .about-icons .downloadBG-wrapper{
     z-index: 1;
@@ -76,6 +117,10 @@
     width:30px;
     top: 365px;
     left:-14px;   
+}
+.about-right{
+
+    animation: AboutImg 0.9s ease-in-out forwards;
 }
 
 .about .about-right .title{
@@ -106,6 +151,7 @@
     gap: 98px;
     flex-wrap: wrap;
 }
+
 .education > h1{
     margin-bottom: 20px;
 } 

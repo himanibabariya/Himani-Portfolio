@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import himaniAbout from "../assets/images/himani-about.jpeg";
 
 const About = () => {
+  
   return (
     <div>
       <section className="about" id="about">
@@ -17,8 +18,8 @@ const About = () => {
             <div className="square2"></div>
             <div className="square3"></div>
             <div className="downloadBG-wrapper">
-              <img src={downloadBG} alt="" className='downloadBG' />
               <a href="">
+              <img src={downloadBG} alt="" className='downloadBG' />
                 <img src={downloadCV} alt="" className='downloadCV' />
               </a>
             </div>
