@@ -45,10 +45,10 @@
 
 .project-container {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
     max-width: 80vw;
-    margin: 50px auto;
+    margin: 70px auto;
     gap: 30px;
     padding: 30px 36px;
     flex-wrap: wrap;
@@ -79,6 +79,14 @@
     right: 65px;
     top: 40px;
     width: 380px;
+}
+
+.project-container .left .laptop .projectImg {
+    position: absolute;
+    right: 65px;
+    top: 40px;
+    width: 380px;
+    height: 240px;
 }
 
 .project-container .right .des {
@@ -234,6 +242,13 @@
     .project-container .left .laptop .video {
         right: 43px;
         width: 308px;
+    }
+    .project-container .left .laptop .projectImg{
+        width: 300PX;
+        height: 200PX;
+        right: 52px;
+        top: 34px;
+    
     }
     
 }
