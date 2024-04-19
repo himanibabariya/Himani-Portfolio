@@ -1,25 +1,28 @@
-import React from 'react'
+// import React from 'react'
 import { Link, useLocation } from 'react-router-dom';
+import React, { useState } from 'react';
 
 const ProjectNavigation = ({ setProjectType }) => {
   const location = useLocation();
+  const [activeButton, setActiveButton] = useState('all');
 
-  const handleNavigation = (type) => {
+  const handleNavigation = (type, button) => {
     setProjectType(type);
+    setActiveButton(button);
   }
 
   return (
     <div>
       <div className="project-nav">
-        <a className={location.pathname === '/allProjects' ? 'active' : ''} onClick={() => handleNavigation('all')}>
+        <button className={activeButton === 'all' ? 'active' : ''} onClick={() => handleNavigation('all', 'all')}>
          All
-        </a>
-        <a className={location.pathname === '/uiProjects' ? 'active' : ''}  onClick={() => handleNavigation('ui')}>
+        </button>
+        <button className={activeButton === 'ui' ? 'active' : ''} onClick={() => handleNavigation('ui', 'ui')}>
         UI/UX
-        </a>
-        <a className={location.pathname === '/webProjects' ? 'active' : ''}  onClick={() => handleNavigation('web')}>
+        </button>
+        <button  className={activeButton === 'web' ? 'active' : ''} onClick={() => handleNavigation('web', 'web')}>
         Web Application
-        </a>
+        </button>
       </div>
     </div>
   )

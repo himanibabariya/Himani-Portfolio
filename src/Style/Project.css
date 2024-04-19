@@ -25,13 +25,10 @@
     font-size: 16px;
     border-radius: 30px;
     margin: 30px auto;
-    max-width: 350px;
+    max-width: 280px;
     background-color: #000000;
 }
-.project-nav .item{
-    border-radius: 6px; 
-}
-.project-nav a{
+.project-nav button{
     color: #ffffff;
     background-color: transparent;
     border: none;
@@ -39,16 +36,15 @@
     padding: 12px 18px;
     text-decoration: none;
 }
-.project-nav a.active{
+
+.project-nav button.active{
     background-color: var(--button-background-color);
     border-radius: 20px;
     margin: 2px 0px;
-    /* color: red ;  */
 }
 
 .project-container {
     display: flex;
-    /* align-items: center; */
     justify-content: space-between;
     max-width: 80vw;
     margin: 70px auto;
