@@ -21,27 +21,30 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1.5px solid gray;
     color: gray;
     font-size: 16px;
-    border-radius: 12px;
+    border-radius: 30px;
     margin: 30px auto;
     max-width: 350px;
-    /* background-color: #071849; */
+    background-color: #000000;
 }
 .project-nav .item{
-    padding: 8px 18px;
-    border-radius: 6px;
+    border-radius: 6px; 
+}
+.project-nav a{
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
     cursor: pointer;
+    padding: 12px 18px;
+    text-decoration: none;
 }
-.project-nav .sepration{
-    border: 1.5px solid gray;
-    height:33px;
-    width: 1px;
+.project-nav a.active{
+    background-color: var(--button-background-color);
+    border-radius: 20px;
+    margin: 2px 0px;
+    /* color: red ;  */
 }
-
-
-
 
 .project-container {
     display: flex;
@@ -205,7 +208,6 @@
     display: flex;
     margin: 50px auto;
     text-align: center;
-    /* color: white; */
 }
 
 .moreProjects{
