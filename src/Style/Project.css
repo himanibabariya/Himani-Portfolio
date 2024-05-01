@@ -52,6 +52,10 @@
     padding: 30px 36px;
     flex-wrap: wrap;
 }
+.project-container .left{
+    display: flex;
+    flex-direction: column;
+}
 
 .project-container .left .title {
     font-size: 15px;
@@ -87,7 +91,26 @@
     width: 380px;
     height: 240px;
 }
+.project-container .left .tech-section{
+    margin-top: 50px;
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+.project-container .left .technologies{
+    /* margin-top: 50px; */
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+.project-container .left .technologies img{
+    width: 20px;
+}
 
+.project-container .right{
+    display: flex;
+    flex-direction: column;
+}
 .project-container .right .des {
     font-size: 20px;
 }
@@ -98,25 +121,20 @@
     line-height: 1.5;
 }
 
-.project-container .right .technologies {
-    margin-top: 20px;
+.project-container .right .concepts{
+    display: grid;
+    gap:20px;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
 }
-
-.project-container .right .list-languages {
+.project-container .right .concepts .item{
     display: flex;
-    justify-content: left;
-    margin-top: 10px;
-    gap: 10px;
-    font-size: 12px;
-    color: rgb(177, 178, 179);
+    gap:30px 10px;
+    align-items: center;
 }
-
-.project-container .right .list-languages .language {
-    border: 1px solid grey;
-    padding: 5px 15px;
-    border-radius: 15px;
+.project-container .right .concepts .item img{
+    width: 30px;
 }
-
 .project-container button {
     margin-top: 20px;
     padding: 12px;
@@ -179,6 +197,8 @@
         opacity: 1;
     }
 }
+
+
 
 /* Project 2 */
 
@@ -248,5 +268,12 @@
         top: 34px;
     
     }
-    
+    .project-container .left .tech-section{
+        margin-left: 80px;
+        flex-direction: column;
+        align-items: start;
+    }
+    .project-container .right .concepts{
+        margin-top: 30px;
+    }
 }
