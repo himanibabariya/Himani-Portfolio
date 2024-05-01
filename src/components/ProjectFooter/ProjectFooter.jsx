@@ -1,5 +1,5 @@
 import React from 'react'
-import GitHub from "../assets/social/github1.svg";
+import GitHub from "../../assets/social/github1.svg";
 import { Link } from 'react-router-dom';
 
 const ProjectFooter = () => {

@@ -1,6 +1,6 @@
 import React from 'react';
-import UiProjects from './UiProjects';
-import WebProjects from './WebProjects';
+import UiProjects from '../UiProjects/UiProjects';
+import WebProjects from '../WebProjects/WebProjects';
 
 const AllProjects = () => {
   return (

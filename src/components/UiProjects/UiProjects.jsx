@@ -1,9 +1,9 @@
 import React from 'react'
-import Laptop from "../assets/images/laptop.png";
-import Project1 from "../assets/videos/project1.mp4";
-import ProjectNavigation from "./ProjectNavigation";
-import Phone from "../assets/images/phone.webp";
-import Project2 from "../assets/videos/project2.mp4";
+import Laptop from "../../assets/images/laptop.png";
+import Project1 from "../../assets/videos/project1.mp4";
+import ProjectNavigation from "../ProjectNavigation/ProjectNavigation";
+import Phone from "../../assets/images/phone.webp";
+import Project2 from "../../assets/videos/project2.mp4";
 
 const UiProjects = () => {
   return (

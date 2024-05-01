@@ -1,6 +1,6 @@
 import React from 'react'
-import Laptop from "../assets/images/laptop.png";
-import Project3 from "../assets/videos/project3.png";
+import Laptop from "../../assets/images/laptop.png";
+import Project3 from "../../assets/videos/project3.png";
 
 const WebProjects = () => {
   return (

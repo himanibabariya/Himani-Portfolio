@@ -1,9 +1,7 @@
-// rafce 
-
 import React from 'react'
 import { Link, useLocation } from 'react-router-dom';
-import Logo from '../assets/images/logo.svg';
-import "../Style/Navbar.css"
+import Logo from '../../assets/images/logo.svg';
+import "./Navbar.css"
 
 const Navbar = () => {
     const location = useLocation();

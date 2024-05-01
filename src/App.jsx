@@ -1,15 +1,15 @@
 import './App.css'
-import Navbar from './components/Navbar'
+import Navbar from './components/Navbar/Navbar'
 import Home from './Pages/Home'
 import About from "./Pages/About";
 import Skills from './Pages/Skills';
 import Projects from './Pages/Projects';
 import Contact from "./Pages/Contact";
-import UiProjects from "./components/UiProjects";
-import WebProjects from "./components/WebProjects";
+import UiProjects from "./components/UiProjects/UiProjects";
+import WebProjects from "./components/WebProjects/WebProjects";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import ProjectNavigation from "./components/ProjectNavigation";
+import ProjectNavigation from "./components/ProjectNavigation/ProjectNavigation";
 
 
 function App() {
