@@ -38,7 +38,7 @@ const WebProjects = () => {
           <p className='description'>"ParcelTracker" is a sophisticated parcel management platform designed to redefine the tracking experience. It's a reflection of my unwavering commitment to elevating digital experiences, ensuring that every user interaction leaves an indelible mark of satisfaction and reliability. I've not only created a functional tool but a testament to my expertise in blending cutting-edge technology with user-centric design principles, ultimately shaping a digital experience that resonates long after the last delivery is received.</p>
 
           <div className="liveProject">
-            <a href="#"><button className="btn-orange">Github</button></a>
+            <a href="https://github.com/himanibabariya/Parcel-Tracker" target='_blank'><button className="btn-orange">Github</button></a>
             <a href="#"><button className="btn-blue">Live Demo</button></a>
           </div>
 
