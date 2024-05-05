@@ -77,7 +77,7 @@ const About = () => {
             <div className="education-right">
               <h1>Software Engineer</h1>
               <p>SCC Infotech LLP - India</p>
-              <p>July 2023 -  Dec 2023</p>
+              <p>July 2022 -  Dec 2022</p>
               <p>Through hands-on experience, I honed my skills in programming languages such as c++, Java, and JavaScript, as well as frameworks like React.js. I also gained proficiency in version control systems such as Git and acquired a deeper understanding of software development methodologies such as Agile. </p>
             </div>
           </div>
@@ -89,7 +89,7 @@ const About = () => {
             <div className="education-right">
               <h1>Software Engineer (Intern)</h1>
               <p>SCC Infotech LLP - India</p>
-              <p>Jan 2022 - june 2023</p>
+              <p>Jan 2022 - june 2022</p>
               <p>During my internship as a software engineer, I gained invaluable experience working on real-world projects alongside seasoned professionals. I learned to navigate complex codebases, debug issues efficiently, and collaborate effectively within a team environment. </p>
             </div>
           </div>

@@ -19,6 +19,8 @@ import csharpIcon from '../assets/skills/csharp.svg';
 import javaIcon from '../assets/skills/java.svg';
 import gitIcon from '../assets/skills/git.svg';
 import githubIcon from '../assets/skills/github.svg';
+import microsoft from '../assets/skills/microsoft.svg';
+import aws from '../assets/skills/aws.svg'
 
 
 const Skills = () => {
@@ -31,8 +33,8 @@ const Skills = () => {
           <div className="boxes box-group-left">
             <h2>Frontend Development</h2>
             <div className="box1">
-              <div className="box"><img src={htmlIcon} alt="" /> HTML</div>
-              <div className="box"><img src={cssIcon} alt="" /> CSS</div>
+              <div className="box"><img src={htmlIcon} alt="" /> HTML5</div>
+              <div className="box"><img src={cssIcon} alt="" /> CSS3</div>
               <div className="box"><img src={tailwindIcon} alt="" /> Tailwind</div>
               <div className="box"><img src={javascriptIcon} alt="" /> JavaScript</div>
               <div className="box"><img src={reactIcon} alt="" /> React Js</div>
@@ -71,15 +73,35 @@ const Skills = () => {
           </div>
 
           <div className=" boxes box-group-left">
+            <h2>Cloud Computing</h2>
+            <div className="box3">
+              <div className="box"><img src={microsoft} alt="" />Microsoft Azure</div>
+              <div className="box"><img src={aws} alt="" />AWS</div>
+
+            </div>
+          </div>
+
+          <div className=" boxes box-group-right">
+            <h2>Agile Methodology</h2>
+            <div className="box4">
+              <div className="box">Scrum</div>
+              {/* <div className="box"></div> */}
+            </div>
+          </div>
+
+          <div className=" boxes box-group-left">
             <h2>Tools</h2>
             <div className="box5">
+              <div className="box">Figma</div>
+              <div className="box">Adobe XD</div>
               <div className="box">VS Code</div>
               <div className="box">IntelliJ IDEA</div>
               <div className="box">Microsoft Visual Studio </div>
               <div className="box">Postman</div>
-              <div className="box">Microsoft Azure</div>
-              <div className="box">Figma</div>
-              <div className="box">Adobe XD</div>
+              <div className="box">Microsoft Teams</div>
+              <div className="box">Selenium</div>
+              
+
             </div>
           </div>
 
