@@ -63,7 +63,7 @@
 
 .box {
     border: 1px solid rgb(177, 178, 179);
-    border-radius: 10px;
+    border-radius: 7px;
     padding: 5px 10px;
     display: flex;
     justify-content: center;
@@ -84,8 +84,8 @@
 
 .boxes:hover {
     /* transform: scale(1.1); */
-    background-color: transparent;
-    border: 1px solid white;
+    background-color: #072073;
+    /* border: 1px solid white; */
 }
 
 

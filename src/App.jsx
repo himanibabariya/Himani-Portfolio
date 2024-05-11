@@ -9,16 +9,12 @@ import UiProjects from "./components/UiProjects/UiProjects";
 import WebProjects from "./components/WebProjects/WebProjects";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import ProjectNavigation from "./components/ProjectNavigation/ProjectNavigation";
-
-
 function App() {
 
   return (
     <BrowserRouter>
       <div>
         <Navbar />
-        {/* <ProjectNavigation/> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/skills" element={<Skills />} />

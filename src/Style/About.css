@@ -14,7 +14,7 @@
 
 .aboutImg {
     width: 300px;
-    border-radius: 5px;
+    border-radius: 7px;
     filter: grayscale(100%);
     transition: transform 0.3s ease;
     position: relative;
@@ -157,10 +157,9 @@
 
 .about .about-right p {
     margin-top: 10px;
-
     line-height: 1.5;
     text-align: justify;
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
 }
 
 
@@ -177,11 +176,13 @@
 }
 
 .education>h1 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    color: var(--button-background-color);
 }
 
 .experience>h1 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    color: var(--button-background-color);
 }
 
 .education i {
@@ -230,19 +231,21 @@
 
 .education-right p:nth-child(2) {
     margin-top: 1px;
+    
 }
 
 .education-right p:nth-child(3) {
     font-size: 0.8rem;
-    color: gray;
+    color: white;
     margin-top: 5px;
+    
 }
 
 .education-right p:nth-child(4) {
     margin-top: 15px;
     text-align: justify;
     max-width: 450px;
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
     line-height: 1.5;
 }
 .btn-skiils-navigation{
@@ -261,6 +264,7 @@
     color: white;
     border: 1px solid var(--button-background-color);
     padding: 10px 40px;
+    border-radius: 7px;
 }
 
 .btn-navigation i {

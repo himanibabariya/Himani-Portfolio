@@ -20,6 +20,7 @@
         opacity: 0;
         transform: translateY(-80px);
     }
+
     100% {
         opacity: 1;
         transform: translateY(0);
@@ -44,7 +45,7 @@
 .left-content .name2 {
     font-size: 63px;
     margin-top: 10px;
-    letter-spacing: 7px;
+    /* letter-spacing: 7px; */
 }
 
 .left-content .role2 {
@@ -56,27 +57,29 @@
     white-space: nowrap;
     overflow: hidden;
 }
-.left-content .typing-text::after{
+
+.left-content .typing-text::after {
     content: "";
     position: absolute;
-    left:150px;
+    left: 150px;
     height: 40px;
     width: 100%;
-    border-left:2px solid  rgb(32, 32, 236);
+    border-left: 2px solid rgb(32, 32, 236);
     animation: typing 2s steps(10) infinite;
     background: var(--primary-background-color);
 }
+
 @keyframes typing {
-    100%{
-        left:92%;
+    100% {
+        left: 92%;
     }
-    
+
 }
 
 .description {
     margin-top: 23px;
     max-width: 550px;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     line-height: 1.5;
 }
 
@@ -86,7 +89,8 @@
     justify-content: space-between;
     align-items: center;
 }
-.btn-resume{
+
+.btn-resume {
     padding: 12px;
     color: var(--primary-text-color);
     border-radius: 7px;
@@ -104,9 +108,17 @@
 .btn-home-navigation a {
     text-decoration: none;
     font-size: 20px;
-    color: var(--button-background-color);
+    padding: 12px;
+    color: var(--primary-text-color);
+    border-radius: 7px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--button-background-color);
+    transition: background-color .5s ease-in-out;
 }
-.btn-home-navigation i{
+
+.btn-home-navigation i {
     font-size: 12px;
 }
 
@@ -126,20 +138,23 @@
     0% {
         transform: translateY(0);
     }
+
     100% {
-        transform: translateY(-10px); 
+        transform: translateY(-10px);
     }
 }
 
 .right-content {
     position: relative;
-    animation: bounce 1s ease infinite alternate; 
+    animation: bounce 1s ease infinite alternate;
 }
+
 .circle1 {
     border: 1px solid var(--primary-text-color);
     border-radius: 50%;
     box-shadow: rgb(66 100 169) 0px 4px 70px;
 }
+
 .circle2 {
     border: 10px solid var(--primary-text-color);
     border-radius: 50%;
@@ -173,6 +188,7 @@
     0% {
         transform: translateY(10%);
     }
+
     100% {
         transform: translateY(0);
     }
@@ -209,16 +225,18 @@
 }
 
 
-@media screen and (max-width: 1462px){
-    .home{
+@media screen and (max-width: 1462px) {
+    .home {
         justify-content: center;
     }
+
     .left-content {
         order: 1;
-        
+
     }
-    .right-content{
+
+    .right-content {
         order: -1;
     }
-    
+
 }

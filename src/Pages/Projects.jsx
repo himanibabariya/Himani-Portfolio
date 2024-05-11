@@ -1,6 +1,5 @@
 
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import "../Style/Project.css";
 
 import ProjectNavigation from "../components/ProjectNavigation/ProjectNavigation";
@@ -19,7 +18,7 @@ const Projects = () => {
         {projectType === 'all' && <AllProjects />}
         {projectType === 'ui' && <UiProjects />}
         {projectType === 'web' && <WebProjects />}
-        <ProjectFooter />
+        <ProjectFooter />        
       </section>
     </div>
   )

@@ -29,11 +29,11 @@ nav .check-btn{
 }
 
 .nav-center ul li a:hover{
-    color:#737477;
+    color:rgb(32, 32, 236);
     transition: .5s;
 }
 .nav-center ul li a.active{
-    color: rgb(32, 32, 236);
+    color: var(--button-background-color);
 }
 .nav-right .nav-btn{
     padding: 12px;
