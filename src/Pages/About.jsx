@@ -77,7 +77,7 @@ const About = () => {
             <div className="education-right">
               <h1>Software Engineer</h1>
               <p>SCC Infotech LLP - India</p>
-              <p>July 2022 -  Dec 2022</p>
+              <p>July 2022 -  Apr 2023</p>
               <p>Through hands-on experience, I honed my skills in programming languages such as c++, Java, and JavaScript, as well as frameworks like React.js. I also gained proficiency in version control systems such as Git and acquired a deeper understanding of software development methodologies such as Agile. </p>
             </div>
           </div>
