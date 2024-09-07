@@ -8,6 +8,7 @@ import Contact from "./Pages/Contact";
 import UiProjects from "./components/UiProjects/UiProjects";
 import WebProjects from "./components/WebProjects/WebProjects";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import AndroidProjects from './components/MobileApp/AndroidProjects';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
           
           <Route path="/uiProjects" element={<UiProjects />} />
           <Route path="/webProjects" element={<WebProjects />} />
+          <Route path='/androidProjects' element={<AndroidProjects/>}/>
         </Routes>
       </div>
     </BrowserRouter>

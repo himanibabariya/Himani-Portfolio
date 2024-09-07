@@ -25,7 +25,7 @@
     font-size: 16px;
     border-radius: 7px;
     margin: 30px auto;
-    max-width: 254px;
+    max-width: 320px;
     background-color: var(--secondary-background--color);
 }
 .project-nav button{
@@ -276,4 +276,14 @@
     .project-container .right .concepts{
         margin-top: 30px;
     }
+}
+
+
+/* Android Project Event Buzz */
+.project-container .left .phone .phoneVideo-projectImg {
+    position: absolute;
+    right: 137px;
+    top: 23px;
+    width: 215px;
+    height: 452px;
 }

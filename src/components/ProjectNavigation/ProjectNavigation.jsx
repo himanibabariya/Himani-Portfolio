@@ -17,25 +17,19 @@ const ProjectNavigation = ({ setProjectType }) => {
          All
         </button>
 
-
-
-
         <button className={activeButton === 'ui' ? 'active' : ''} onClick={() => handleNavigation('ui', 'ui')}>
         UI/UX
-
-
-
         </button>
+
         <button  className={activeButton === 'web' ? 'active' : ''} onClick={() => handleNavigation('web', 'web')}>
-        Web Application
+        Web App
+        </button>
+
+        <button  className={activeButton === 'android' ? 'active' : ''} onClick={() => handleNavigation('android', 'android')}>
+        Mobile App
         </button>
 
 
-
-
-        {/* <button  className={activeButton === 'web' ? 'active' : ''} onClick={() => handleNavigation('web', 'web')}>
-        NPM Package
-        </button> */}
       </div>
     </div>
   )
