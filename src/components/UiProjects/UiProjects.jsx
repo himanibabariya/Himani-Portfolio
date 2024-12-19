@@ -55,6 +55,13 @@ const UiProjects = () => {
               <p>User Centric</p>
             </div>
           </div>
+
+          <div className="liveProject">
+            <a href="https://xd.adobe.com/view/ceb78ee4-1d74-4975-8be8-7770d4c38431-9be4/" target='_blank'><button className="btn-orange">Desktop</button></a>
+            <a href="https://xd.adobe.com/view/ceb78ee4-1d74-4975-8be8-7770d4c38431-9be4/screen/bcc1399a-8c29-441a-8aa9-ca92fb2fc241" target='_blank'><button className="btn-blue">Tablet</button></a>
+            <a href="https://xd.adobe.com/view/ceb78ee4-1d74-4975-8be8-7770d4c38431-9be4/screen/105862bb-b09c-4503-aacc-0086d5b63ede" target='_blank'><button className="btn-orange">Mobile</button></a>
+
+          </div>
         </div>
       </div>
 
@@ -102,6 +109,11 @@ const UiProjects = () => {
               <img src={star} alt="" />
               <p>Prototype</p>
             </div>
+          </div>
+
+          <div className="liveProject">
+            <a href="#" target='_blank'><button className="btn-orange">Github</button></a>
+            <a href="https://xd.adobe.com/view/ce0091c7-554e-4100-8f59-3e30a66582a8-9b53/screen/fcf8cf96-dff4-4f9d-8a57-964030f90809" target='_blank'><button className="btn-blue">Live Demo</button></a>
           </div>
         </div>
       </div>

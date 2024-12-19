@@ -152,6 +152,7 @@
 .project-container .btn-blue {
     background-color: #0e2363;
     margin-left: 15px;
+    margin-right: 15px;
     transition: background-color .5s ease-in-out;
 }
 
