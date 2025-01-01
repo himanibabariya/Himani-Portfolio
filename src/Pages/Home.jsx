@@ -9,6 +9,7 @@ import nodeIcon from '../assets/skills/node.svg';
 import githubSocial from '../assets/social/github.svg';
 import instaSocial from '../assets/social/instagram.svg';
 import linkedinSocial from '../assets/social/linkedin.svg';
+import leetcodeSocial from '../assets/social/leetcode.svg';
 
 const Home = () => {
     return (
@@ -27,9 +28,10 @@ const Home = () => {
                         </button>
 
                         <div className="social-icons">
+                            <a href="https://leetcode.com/u/himani0304/" target="_blank"><img src={leetcodeSocial} alt="" /></a>
                             <a href="https://github.com/himanibabariya" target="_blank"><img src={githubSocial} alt="" /></a>
-                            <a href="https://www.instagram.com/himani_babariya/" target="_blank"><img src={instaSocial} alt="" /></a>
                             <a href="https://www.linkedin.com/in/himanibabariya/" target="_blank"><img src={linkedinSocial} alt="" /></a>
+                            <a href="https://www.instagram.com/himani_babariya/" target="_blank"><img src={instaSocial} alt="" /></a>     
                         </div>
                     </div>
                 </div>

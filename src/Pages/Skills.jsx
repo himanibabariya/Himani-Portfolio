@@ -110,7 +110,7 @@ const Skills = () => {
             <div className="box6">
               <div className="box">Object Oriented Programming</div>
               <div className="box">Data structure & Algorithm</div>
-              <div className="box">Data base management system</div>
+              <div className="box">Database management system</div>
               <div className="box">Software Engineering</div>
             </div>
           </div>
